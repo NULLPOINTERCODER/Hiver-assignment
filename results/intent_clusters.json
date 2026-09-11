@@ -1,0 +1,212 @@
+[
+  {
+    "cluster_id": 0,
+    "size": 3126,
+    "keywords": [
+      "url",
+      "customer",
+      "help",
+      "app",
+      "ios11",
+      "fix",
+      "update",
+      "just"
+    ],
+    "sample_queries": [
+      "Hi I have an iPad Pro 9.7when I click Mobile Data then EE I get 'An error has occurred while getting user information (TMF12) can u help",
+      "how do I delete apps if this is what shows when I press and hold an app [URL]",
+      "Is family shared iCloud storage a functionality I can't find or is this something that doesn't exist (yet)?",
+      "when ur mom reads ur emails [URL]",
+      "my touch bar isn't working! [URL]"
+    ]
+  },
+  {
+    "cluster_id": 1,
+    "size": 172,
+    "keywords": [
+      "english",
+      "twitter",
+      "support",
+      "twitter english",
+      "support twitter",
+      "offer support",
+      "offer",
+      "url"
+    ],
+    "sample_queries": [
+      "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]",
+      "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]",
+      "We offer support via Twitter in English. Get help in Spanish here: [URL] or join [URL]",
+      "Since our Twitter support is available in English, get help at [URL] or join [URL]",
+      "Since our Twitter support is available in English, get help at [URL] or join [URL]"
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "size": 473,
+    "keywords": [
+      "let",
+      "let know",
+      "dm",
+      "know",
+      "url",
+      "dm url",
+      "look",
+      "help"
+    ],
+    "sample_queries": [
+      "Let's help. To maximize your battery performance, please visit: [URL]",
+      "Our article [URL] can help you edit a playlist created on your iPhone. Let us know if we can help you further.",
+      "We're happy to help. Try these tips for battery life, and let us know if you still have an issue: [URL]",
+      "Let's work on this together. Please turn off the keyboard, then turn it back on: [URL] Does that resolve it? [URL]",
+      "Thanks for bringing this to our attention. Let's start with this: [URL]"
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "size": 978,
+    "keywords": [
+      "iphone",
+      "customer",
+      "update",
+      "plus",
+      "new",
+      "ios11",
+      "iphone plus",
+      "new iphone"
+    ],
+    "sample_queries": [
+      "Howdy. Today I started getting a \"No Sim Card Installed\" message on my iPhone 6. I'm running 9.2.1",
+      "Awrite av got a problem with my iPhone",
+      "#iPhone 1-9-07",
+      "Hi @Customer, I had an iPhone 7 and the sound system keeps freezing on my 2014 QX60, our local dealer is blaming @Customer devices! Is it?",
+      "Looks like my phone got wind of the new release for @Customer's iPhone 8 and my camera decided to stop working. #itknows #nowmywatchwontpair"
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "size": 321,
+    "keywords": [
+      "life",
+      "battery life",
+      "battery",
+      "ios",
+      "11",
+      "ios 11",
+      "update",
+      "customer"
+    ],
+    "sample_queries": [
+      "since upgrade to iOS 11 my iPhone 7\u2019s battery life is even worse than before! i can watch the % drop as I\u2019m using my phone! \ud83d\udc4e",
+      "My battery life is draining after the 11 update. Any fixes for that?",
+      "seriously guys. new update keeps freezing my phone and is ridiculously draining battery life. Not cool at all. \ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc\ud83d\udc4e\ud83c\udffc",
+      "upd. 11.0.1 battery life sucks, app crashes, shows no sim at times, text bar disappears,lock scrn freezes",
+      "my battery life has been horrible since I updated to iOS 11. Will there be a fix coming for this?"
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "size": 575,
+    "keywords": [
+      "apple",
+      "music",
+      "apple music",
+      "watch",
+      "apple watch",
+      "url",
+      "customer",
+      "tv"
+    ],
+    "sample_queries": [
+      "Hi! To see a list of accessories that work with Apple HomeKit, click here: [URL]",
+      "@Customer - how do I track a weight lifting workout on my Apple Watch Series 2 as an Activity\"?I feel like I'm not getting credit",
+      "the page to reset your Apple ID is not working",
+      "It's a big day at Apple! We are honored and thrilled to host our first keynote at the Steve Jobs Theater this morning. [URL]",
+      "Apple Watch Series 3 with cellular. Stay connected, even when you\u2019re away from your phone. [ORDER_REF] 15."
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "size": 621,
+    "keywords": [
+      "battery",
+      "draining",
+      "update",
+      "ios11",
+      "customer",
+      "iphone",
+      "fix",
+      "battery draining"
+    ],
+    "sample_queries": [
+      "So not only am I locked out of my iTunes, but this update is also killing my battery \ud83d\ude16\ud83d\ude21 #iphoneproblems why @Customer why?!?! \ud83d\udc7a\ud83d\udc7a",
+      "Ever since the last update, my battery has been running down pretty fast! Sometimes within minutes, it's out. Please advise.",
+      "#apple #iphone #ois11 never had my battery drain this bad ever!!! As I\u2019m typing it\u2019s down to 16% [URL]",
+      "facing serious freezing & battery drain issues in #iphone7. Unable to send text msg from call list. Awaiting update to resolve these",
+      "iOS 11 is draining the battery on my iPhone 7 twice as fast as iOS 10. Help!"
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "size": 785,
+    "keywords": [
+      "url",
+      "dm",
+      "ll",
+      "send dm",
+      "send",
+      "help",
+      "look",
+      "dm ll"
+    ],
+    "sample_queries": [
+      "We'd love to look into this with you. Which device and software version are you using? Please send us a DM and we'll go from there. [URL]",
+      "We want to help. DM us details on the iOS version you have and which iTunes version. We'll work with you there. [URL]",
+      "Let's look into this for you. We've received your DM, and we'll continue working with you there. [URL]",
+      "Hi there. Please send us a few details in DM, we'll meet you there to help out. [URL]",
+      "We'd like to know more about what you are seeing. Could you join us in DM with more details? [URL]"
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "size": 1336,
+    "keywords": [
+      "phone",
+      "update",
+      "customer",
+      "new",
+      "new update",
+      "update phone",
+      "ios update",
+      "fix"
+    ],
+    "sample_queries": [
+      "why does your new update require 3 passwords including an iCloud security code that I cannot change even though I know it",
+      "@Customer Issue is sorted after updating the latest update. New issue after latest update. Click Settings -> Wifi is on for a fraction of a sec",
+      "Introducing the new #BeatsStudio3Wireless.",
+      "bought iPhone SE from Maple (so no duplicate issues) within 10 days the touch started acting up. @Customer @Customer want a brand new phone",
+      "This new update is a joke!"
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "size": 1414,
+    "keywords": [
+      "ios 11",
+      "11",
+      "ios",
+      "iphone",
+      "customer",
+      "phone",
+      "fix",
+      "update"
+    ],
+    "sample_queries": [
+      "My invited HomeKit user can\u2019t access home remotely with iOS 11. Its been a problem during the betas, and now the final release",
+      "Maps Will Not Start on my iPhone 6s After updating iOS 11! Reboot the iPhone and reinstall the App will Not fix the Problem",
+      "Hi. Can the faded grey and white passcode screen be changed to a sharper or darker view in IOS 11.?",
+      "Say hello to the all-new App Store in iOS 11. With expert recommendations and daily picks to help you find your new favorite apps and games. [URL]",
+      "having issues connecting my iPad to my personal hot spot after iOS 11"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "brand": "AmazonHelp",
+    "total_conversations": 11280,
+    "avg_conversation_length_chars": 1220.1,
+    "viability_score": 8262.03
+  },
+  {
+    "brand": "AppleSupport",
+    "total_conversations": 10004,
+    "avg_conversation_length_chars": 487.3,
+    "viability_score": 7149.0
+  },
+  {
+    "brand": "Uber_Support",
+    "total_conversations": 4990,
+    "avg_conversation_length_chars": 494.5,
+    "viability_score": 3641.35
+  },
+  {
+    "brand": "Delta",
+    "total_conversations": 3772,
+    "avg_conversation_length_chars": 379.7,
+    "viability_score": 2754.31
+  },
+  {
+    "brand": "AmericanAir",
+    "total_conversations": 3587,
+    "avg_conversation_length_chars": 386.9,
+    "viability_score": 2626.97
+  },
+  {
+    "brand": "SpotifyCares",
+    "total_conversations": 3452,
+    "avg_conversation_length_chars": 525.6,
+    "viability_score": 2574.07
+  },
+  {
+    "brand": "TMobileHelp",
+    "total_conversations": 3162,
+    "avg_conversation_length_chars": 604.1,
+    "viability_score": 2394.62
+  },
+  {
+    "brand": "comcastcares",
+    "total_conversations": 2962,
+    "avg_conversation_length_chars": 377.1,
+    "viability_score": 2186.54
+  },
+  {
+    "brand": "SouthwestAir",
+    "total_conversations": 2670,
+    "avg_conversation_length_chars": 338.1,
+    "viability_score": 1970.42
+  },
+  {
+    "brand": "",
+    "total_conversations": 2597,
+    "avg_conversation_length_chars": 179.5,
+    "viability_score": 1871.75
+  },
+  {
+    "brand": "hulu_support",
+    "total_conversations": 2401,
+    "avg_conversation_length_chars": 537.0,
+    "viability_score": 1841.79
+  },
+  {
+    "brand": "British_Airways",
+    "total_conversations": 2398,
+    "avg_conversation_length_chars": 592.5,
+    "viability_score": 1856.34
+  },
+  {
+    "brand": "McDonalds",
+    "total_conversations": 2341,
+    "avg_conversation_length_chars": 215.6,
+    "viability_score": 1703.38
+  },
+  {
+    "brand": "Ask_Spectrum",
+    "total_conversations": 2281,
+    "avg_conversation_length_chars": 393.7,
+    "viability_score": 1714.82
+  },
+  {
+    "brand": "AskPlayStation",
+    "total_conversations": 2277,
+    "avg_conversation_length_chars": 360.3,
+    "viability_score": 1701.99
+  },
+  {
+    "brand": "sprintcare",
+    "total_conversations": 1865,
+    "avg_conversation_length_chars": 466.4,
+    "viability_score": 1445.43
+  },
+  {
+    "brand": "ChipotleTweets",
+    "total_conversations": 1771,
+    "avg_conversation_length_chars": 217.9,
+    "viability_score": 1305.06
+  },
+  {
+    "brand": "XboxSupport",
+    "total_conversations": 1742,
+    "avg_conversation_length_chars": 473.9,
+    "viability_score": 1361.58
+  },
+  {
+    "brand": "UPSHelp",
+    "total_conversations": 1538,
+    "avg_conversation_length_chars": 337.8,
+    "viability_score": 1177.93
+  },
+  {
+    "brand": "Safaricom_Care",
+    "total_conversations": 1481,
+    "avg_conversation_length_chars": 431.8,
+    "viability_score": 1166.24
+  }
+]

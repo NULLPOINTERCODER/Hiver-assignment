@@ -1,0 +1,61 @@
+# Central Configuration for Hiver AI Support Agent
+
+system:
+  seed: 42
+  environment: "development"
+  log_level: "INFO"
+
+brand:
+  selected_brand: "AppleSupport"
+  author_handle: "@AppleSupport"
+  name: "Apple Support"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  sample_dir: "data/sample"
+  conversations_file: "data/processed/conversations.parquet"
+  knowledge_base_file: "data/processed/knowledge_base.parquet"
+  sample_conversations_file: "data/sample/conversations_sample.parquet"
+  sample_knowledge_base_file: "data/sample/knowledge_base_sample.parquet"
+
+intent:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  classifier_model_path: "models/intent_classifier/intent_model.joblib"
+  label_encoder_path: "models/intent_classifier/label_encoder.joblib"
+  taxonomy_path: "configs/intents.yaml"
+  confidence_threshold: 0.65
+
+retrieval:
+  vectorstore_dir: "vectorstore/chroma_db"
+  collection_name: "brand_support_kb"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k_retrieval: 10
+  similarity_threshold: 0.50
+  use_metadata_filter: true
+
+reranker:
+  model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k_rerank: 3
+  score_threshold: -2.0
+
+generation:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.2
+  max_tokens: 250
+
+escalation:
+  rules_config: "configs/escalation_rules.yaml"
+  min_composite_confidence: 0.60
+  strict_pii_escalation: true
+  conservative_mode: true
+
+evaluation:
+  golden_set_path: "evaluation/golden_set.csv"
+  human_annotations_path: "evaluation/human_annotations.csv"
+  predictions_path: "evaluation/predictions.jsonl"
+  judge_results_path: "evaluation/judge_results.jsonl"
+  metrics_output_path: "evaluation/metrics.json"
+  baseline_results_path: "results/baseline_results.json"
+  final_results_path: "results/final_results.json"

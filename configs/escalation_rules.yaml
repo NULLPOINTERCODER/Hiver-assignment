@@ -1,0 +1,81 @@
+# Escalation Rules and Policy Engine Configuration
+# Governs conservative auto-handling vs human escalation routing
+
+escalation_policy:
+  conservative_mode: true
+  min_intent_confidence: 0.65
+  min_retrieval_similarity: 0.45
+  min_reranker_score: -1.5
+  min_evidence_count: 1
+
+rules:
+  - id: security_compromise
+    name: "Account Takeover & Security Compromise"
+    condition: "any_match"
+    keywords:
+      - "hacked"
+      - "compromised"
+      - "unauthorized login"
+      - "someone access"
+      - "account stolen"
+      - "stolen phone"
+      - "security breach"
+      - "2fa bypass"
+    action: "escalate"
+    reason: "Potential account security breach or unauthorized access requires human identity verification."
+
+  - id: legal_and_threats
+    name: "Legal Threats & Regulatory Complaints"
+    condition: "any_match"
+    keywords:
+      - "lawyer"
+      - "legal action"
+      - "sue"
+      - "lawsuit"
+      - "attorney"
+      - "police"
+      - "consumer protection"
+      - "fcc"
+      - "ftc complaint"
+    action: "escalate"
+    reason: "Legal or regulatory escalation requires senior human support management."
+
+  - id: financial_dispute
+    name: "Severe Billing & Payment Dispute"
+    condition: "any_match"
+    keywords:
+      - "credit card fraud"
+      - "unauthorized charge"
+      - "chargeback"
+      - "bank dispute"
+      - "stole my money"
+      - "fraudulent transaction"
+    action: "escalate"
+    reason: "Financial disputes involving banking fraud or chargebacks require authorized human billing specialists."
+
+  - id: hardware_physical_damage
+    name: "Physical Hardware Damage & Replacement"
+    condition: "any_match"
+    keywords:
+      - "cracked screen"
+      - "shattered"
+      - "liquid damage"
+      - "water damage"
+      - "dropped in water"
+      - "bent frame"
+      - "swollen battery"
+      - "smoke"
+    action: "escalate"
+    reason: "Physical hardware damage or battery safety hazard requires in-person Genius Bar appointment or mail-in repair depot."
+
+  - id: low_confidence_fallback
+    name: "Low Confidence / Ambiguous Query"
+    condition: "intent_confidence < min_intent_confidence or retrieval_score < min_retrieval_similarity"
+    action: "escalate"
+    reason: "Confidence below safety threshold; routing to human agent to prevent incorrect advice."
+
+  - id: zero_evidence_fallback
+    name: "Insufficient Historical Grounding"
+    condition: "evidence_count < min_evidence_count"
+    action: "escalate"
+    reason: "No grounded historical resolution found; escalating to human to avoid policy hallucination."

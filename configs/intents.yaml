@@ -1,0 +1,103 @@
+# Intent Taxonomy for Apple Support AI Agent
+# Discovered empirically from Customer Support on Twitter dataset
+
+intents:
+  - id: battery_power_issue
+    name: "Battery & Power Management"
+    description: "Issues involving rapid battery drainage, device overheating, charging failure, battery health degradation, or unexpected shutdowns."
+    positive_examples:
+      - "My iPhone battery is draining from 100% to 20% in less than two hours."
+      - "Phone gets extremely hot while charging and stops at 80%."
+      - "Battery percentage drops suddenly after the new update."
+    boundary_cases:
+      - "If the battery drain started immediately after an iOS software update and the user asks how to revert the iOS version, classify as software_update_issue."
+
+  - id: software_update_issue
+    name: "Software & OS Update Problems"
+    description: "Problems updating iOS/macOS, update verification errors, device stuck on Apple logo/boot loop, or OS bugs post-update."
+    positive_examples:
+      - "My iPhone is stuck on the Apple logo after trying to install the latest iOS."
+      - "Unable to verify update. An error occurred installing iOS."
+      - "How do I downgrade back to iOS 10 because this new update ruined my phone?"
+    boundary_cases:
+      - "If the update problem is specifically about App Store app downloads rather than the system OS, classify as app_store_app_issue."
+
+  - id: account_security_issue
+    name: "Apple ID, Security & Authentication"
+    description: "Locked Apple ID accounts, two-factor authentication (2FA) verification code issues, suspicious unauthorized logins, or forgotten security passwords."
+    positive_examples:
+      - "My Apple ID is locked for security reasons and I can't receive verification codes."
+      - "I think my iCloud account was compromised, unauthorized login from another country."
+      - "Forgot my Apple ID password and the recovery phone number is no longer active."
+    boundary_cases:
+      - "If the issue involves unknown charges on their account without security compromise, classify as billing_subscription_issue."
+
+  - id: billing_subscription_issue
+    name: "Billing, Subscriptions & Refunds"
+    description: "Questions or disputes regarding App Store charges, unauthorized in-app purchases, recurring subscription cancellations (e.g. Apple Music/iCloud), or refund requests."
+    positive_examples:
+      - "Apple charged my credit card $9.99 for a subscription I cancelled last week."
+      - "Accidentally bought an in-app purchase, how do I get a refund?"
+      - "How do I cancel my Apple Music free trial before it renews?"
+    boundary_cases:
+      - "If an account is locked due to payment method failure, check if primary blocker is account security vs billing update."
+
+  - id: hardware_repair_issue
+    name: "Hardware, Screen & Physical Repairs"
+    description: "Physical hardware damage including cracked screens, liquid damage, unresponsive touchscreens, faulty physical buttons, or AppleCare repair service bookings."
+    positive_examples:
+      - "Dropped my iPhone and the screen is completely shattered and unresponsive."
+      - "The home button clicked weirdly and is now loose and vibrating non-stop."
+      - "How much does it cost to replace a swollen battery or cracked glass at the Genius Bar?"
+    boundary_cases:
+      - "If touchscreen is unresponsive due to software freeze that resets upon hard reboot, distinguish from physical panel failure."
+
+  - id: connectivity_network_issue
+    name: "Cellular, Wi-Fi & Bluetooth Connectivity"
+    description: "Cellular signal loss ('No SIM', 'Searching'), Wi-Fi disconnections, Bluetooth pairing issues with AirPods/accessories, or hotspot errors."
+    positive_examples:
+      - "My phone suddenly says 'No SIM Card Installed' and cannot make calls."
+      - "iPhone connects to Wi-Fi but says 'No Internet Connection'."
+      - "AirPods keep disconnecting from Bluetooth every five minutes."
+    boundary_cases:
+      - "If sound distortion occurs on AirPods due to dirty speaker grill rather than Bluetooth drop, classify as audio_media_issue."
+
+  - id: app_store_app_issue
+    name: "App Store & Application Crashes"
+    description: "Errors downloading or updating third-party apps from the App Store, apps crashing upon opening, or app-specific storage errors."
+    positive_examples:
+      - "App Store keeps showing 'Cannot Connect to App Store' error."
+      - "WhatsApp immediately crashes every time I tap on it."
+      - "Apps are stuck on 'Waiting...' and won't finish downloading."
+    boundary_cases:
+      - "If the entire operating system is crashing across all built-in apps, classify as software_update_issue."
+
+  - id: icloud_backup_issue
+    name: "iCloud Storage, Photos & Syncing"
+    description: "iCloud backup failed, photos not syncing across devices, storage full notifications, or missing contacts/notes after sync."
+    positive_examples:
+      - "iCloud Backup says 'The last backup could not be completed'."
+      - "My photos on my iPad aren't syncing with my iPhone iCloud Photo Library."
+      - "I upgraded to 50GB iCloud storage but my phone still says storage full."
+    boundary_cases:
+      - "If user wants a refund for their iCloud monthly plan, classify as billing_subscription_issue."
+
+  - id: audio_media_issue
+    name: "Audio, Microphone & Media Playback"
+    description: "Speaker distortion, microphone not picking up voice during calls, receiver volume too quiet, or Apple Music / Podcasts playback bugs."
+    positive_examples:
+      - "People can't hear me when I speak on phone calls unless I use speakerphone."
+      - "Top ear speaker is extremely muffled and quiet during calls."
+      - "Songs on Apple Music keep pausing unexpectedly mid-track."
+    boundary_cases:
+      - "If microphone failure is tied to AirPods Bluetooth connection drops, classify as connectivity_network_issue."
+
+  - id: general_inquiry_advice
+    name: "General Inquiry, Feature Guidance & Store Advice"
+    description: "General product inquiries, feature explanations (e.g. how to take screenshot), regional language support requests, or retail store trade-in inquiries."
+    positive_examples:
+      - "Do you offer customer support on Twitter in Spanish or Portuguese?"
+      - "How do I take a scrolling screenshot on iOS 11?"
+      - "Can I trade in my iPhone 6 towards a new iPhone 8 at the local Apple Store?"
+    boundary_cases:
+      - "If the user has a specific troubleshooting breakdown on their current device, route to the appropriate technical intent."

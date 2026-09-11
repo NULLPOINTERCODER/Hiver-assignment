@@ -1,0 +1,201 @@
+id,customer_message,intent,expected_action,expected_reason,difficulty,source_conversation_id
+gold_001,My iPhone 7 battery is draining 1% every two minutes since updating to iOS 11. Can you help?,battery_power_issue,auto,Standard battery drain troubleshooting link and settings check.,easy,conv_gold_001
+gold_002,Phone gets burning hot while plugged into the original wall charger and shuts down.,battery_power_issue,escalate,Safety hazard / potential hardware thermal overload.,high_risk,conv_gold_002
+gold_003,Why does my battery jump from 40% straight to 1% and then die?,battery_power_issue,auto,Battery calibration / battery health advisory.,medium,conv_gold_003
+gold_004,My iPad Pro won't charge past 80% no matter how long it stays plugged in.,battery_power_issue,auto,Optimized battery charging guidance.,easy,conv_gold_004
+gold_005,Battery health says 74% and Service recommended. How do I get it replaced?,battery_power_issue,auto,Battery replacement service booking details.,easy,conv_gold_005
+gold_006,Phone dies at 30% when I'm outside in cold weather.,battery_power_issue,auto,Cold weather lithium-ion operating temperature guidance.,medium,conv_gold_006
+gold_007,The back of my iPhone is swelling and pushing the screen out from the frame!,battery_power_issue,escalate,Swollen battery physical safety risk; immediate hardware service.,high_risk,conv_gold_007
+gold_008,Is fast charging supported on the iPhone 8 with standard iPad 12W brick?,battery_power_issue,auto,Power adapter compatibility specifications.,easy,conv_gold_008
+gold_009,My iPhone battery indicator is stuck on 100% all day even after heavy usage.,battery_power_issue,auto,Software reboot / battery sensor reset instructions.,medium,conv_gold_009
+gold_010,Charger cable sparked and now the lightning port smells like smoke.,battery_power_issue,escalate,Electrical/fire hazard requiring urgent physical hardware inspection.,high_risk,conv_gold_010
+gold_011,Can you check why Settings > Battery says 'Background Activity' took 60% battery for YouTube?,battery_power_issue,auto,Background app refresh settings guidance.,easy,conv_gold_011
+gold_012,Does low power mode turn off automatic mail fetch?,battery_power_issue,auto,Low Power Mode feature explanation.,easy,conv_gold_012
+gold_013,"My phone won't turn on at all, black screen, tried charging for 3 hours with 3 different cables.",battery_power_issue,escalate,Complete power failure requiring hardware diagnostic or Genius Bar.,hard,conv_gold_013
+gold_014,Is it normal for a brand new iPhone X to lose 10% overnight on standby?,battery_power_issue,auto,Standby power optimization tips.,easy,conv_gold_014
+gold_015,Battery widget is not showing battery level for my connected Bluetooth headphones.,battery_power_issue,auto,Widget troubleshooting / Bluetooth device pairing reset.,medium,conv_gold_015
+gold_016,How many charge cycles before iPhone battery capacity drops below 80%?,battery_power_issue,auto,Battery lifecycle technical specification.,easy,conv_gold_016
+gold_017,Wireless charging pad keeps stopping and flashing blue after 5 minutes.,battery_power_issue,auto,Qi wireless charging alignment and case thickness advice.,medium,conv_gold_017
+gold_018,My phone is dropping battery fast and my screen is also flickering green lines.,battery_power_issue,escalate,Dual symptom: battery + hardware display failure.,hard,conv_gold_018
+gold_019,Is there a recall program for iPhone 6s unexpected shutdown issues?,battery_power_issue,auto,Apple Quality Program serial number check advisory.,medium,conv_gold_019
+gold_020,Turned on Low Power Mode and my phone feels extremely laggy and slow.,battery_power_issue,auto,CPU throttling explanation under Low Power Mode.,easy,conv_gold_020
+gold_021,My iPhone is stuck on the Apple logo with progress bar for 4 hours while updating to iOS 11.,software_update_issue,auto,Force restart / Recovery Mode iTunes restore steps.,easy,conv_gold_021
+gold_022,How do I downgrade my iPhone from iOS 11 back to iOS 10.3.3?,software_update_issue,auto,Official unsigned iOS downgrade policy explanation.,medium,conv_gold_022
+gold_023,Unable to Verify Update. iOS failed verification because you are no longer connected to internet.,software_update_issue,auto,Network settings reset and re-download update file steps.,easy,conv_gold_023
+gold_024,Update requested... has been spinning on my screen for two days without downloading.,software_update_issue,auto,Delete downloaded OTA installer and restart download.,easy,conv_gold_024
+gold_025,Error 4013 occurred while trying to restore iPhone in iTunes.,software_update_issue,auto,"iTunes error code 4013 troubleshooting (cable, USB port, OS update).",medium,conv_gold_025
+gold_026,My phone went into a continuous boot loop after latest update and I have unsaved medical data.,software_update_issue,escalate,Data loss risk with critical medical information requiring specialist.,high_risk,conv_gold_026
+gold_027,When is iOS 11.1 coming out to fix the calculator typing bug?,software_update_issue,auto,Software update release schedule policy.,easy,conv_gold_027
+gold_028,Settings app has red badge '1' for software update but when I tap it says software is up to date.,software_update_issue,auto,Notification cache refresh / restart steps.,medium,conv_gold_028
+gold_029,iTunes says 'The iPhone could not be restored. An unknown error occurred (9).',software_update_issue,auto,Security software / USB cable troubleshooting for error 9.,medium,conv_gold_029
+gold_030,Is iPhone 5s supported on iOS 11 or will it slow it down too much?,software_update_issue,auto,Device compatibility specs for iOS 11.,easy,conv_gold_030
+gold_031,"After updating, all my default apps like Weather and Stocks are missing.",software_update_issue,auto,Re-downloading built-in apps from App Store.,medium,conv_gold_031
+gold_032,Can I update my iPad over cellular data or do I strictly need Wi-Fi?,software_update_issue,auto,Cellular download size limit policy and iTunes alternative.,easy,conv_gold_032
+gold_033,Software update says 'Not enough storage space available' even after deleting 5GB of videos.,software_update_issue,auto,Manage storage 'Other' category and iTunes update method.,medium,conv_gold_033
+gold_034,Updated my Mac to High Sierra and now it gives a Kernel Panic kernel error on boot.,software_update_issue,escalate,macOS kernel panic and crash dump analysis requiring tier-2 support.,hard,conv_gold_034
+gold_035,Will updating my phone wipe all my text messages and photos?,software_update_issue,auto,Standard update vs restore data retention explanation.,easy,conv_gold_035
+gold_036,"Installed public beta profile, how do I remove beta profile to receive public release?",software_update_issue,auto,Profile removal in Settings > General > VPN & Device Management.,easy,conv_gold_036
+gold_037,Why does iOS update keep pausing whenever my screen locks?,software_update_issue,auto,Keep connected to power and active Wi-Fi guidance.,easy,conv_gold_037
+gold_038,Can you send me the IPSW file directly on Twitter?,software_update_issue,auto,Security guideline: Apple does not distribute raw IPSW via DM.,medium,conv_gold_038
+gold_039,"Software update bricked my device completely, it won't even show battery icon or charge.",software_update_issue,escalate,Bricked device requiring hardware replacement evaluation.,hard,conv_gold_039
+gold_040,My 3D Touch feels different and haptic feedback is delayed since updating.,software_update_issue,auto,3D touch sensitivity settings adjustment steps.,medium,conv_gold_040
+gold_041,My Apple ID is locked for security reasons and I can't receive verification SMS codes.,account_security_issue,escalate,Account security lock requiring identity verification via iforgot.apple.com.,high_risk,conv_gold_041
+gold_042,"I got an email saying my Apple ID was logged into from Moscow, Russia. I am in Ohio!",account_security_issue,escalate,Compromised account security / unauthorized access alert.,high_risk,conv_gold_042
+gold_043,How do I turn on Two-Factor Authentication on my iPhone?,account_security_issue,auto,Standard 2FA setup steps in Settings > Password & Security.,easy,conv_gold_043
+gold_044,Forgot my Apple ID password and lost access to my trusted phone number.,account_security_issue,escalate,Account recovery process required with human identity check.,hard,conv_gold_044
+gold_045,Someone hacked my iCloud and is threatening to wipe my phone unless I pay them Bitcoin!,account_security_issue,escalate,Extortion / criminal security threat requiring immediate fraud escalation.,high_risk,conv_gold_045
+gold_046,How do I remove an old device from my trusted devices list?,account_security_issue,auto,Settings > Apple ID > Device list removal steps.,easy,conv_gold_046
+gold_047,I bought a used iPhone on Craigslist and it has Activation Lock with someone else's email.,account_security_issue,auto,Activation Lock policy: original receipt required or contact previous owner.,medium,conv_gold_047
+gold_048,Can Apple Support disable Activation Lock if I give you the IMEI number here on Twitter?,account_security_issue,auto,Security policy: Activation Lock cannot be bypassed over Twitter.,easy,conv_gold_048
+gold_049,Two-factor code is being sent to my stolen phone. How can I get into my account?,account_security_issue,escalate,Stolen device and 2FA recovery requiring account recovery protocol.,high_risk,conv_gold_049
+gold_050,How do I generate an app-specific password for third-party email client?,account_security_issue,auto,appleid.apple.com app-specific password generation guidance.,easy,conv_gold_050
+gold_051,My child changed the screen time passcode and now nobody knows it.,account_security_issue,auto,Screen Time passcode reset via Apple ID credentials.,medium,conv_gold_051
+gold_052,I'm receiving multiple 2FA verification prompts on my phone that I did not request!,account_security_issue,escalate,Active account brute-force attack; prompt password change and escalation.,high_risk,conv_gold_052
+gold_053,How do I change the primary email address on my Apple ID account?,account_security_issue,auto,Official guide on updating Apple ID username.,easy,conv_gold_053
+gold_054,What is the waiting period for Apple ID Account Recovery?,account_security_issue,auto,Account recovery timeframe explanation and status check portal.,medium,conv_gold_054
+gold_055,I suspect someone keylogged my Mac and stole my keychain passwords.,account_security_issue,escalate,High-severity security breach requiring security team.,high_risk,conv_gold_055
+gold_056,Can two family members share one Apple ID for App Store and have separate iClouds?,account_security_issue,auto,Family Sharing setup advisory instead of sharing accounts.,medium,conv_gold_056
+gold_057,Why does Apple ID ask security questions instead of SMS code?,account_security_issue,auto,Legacy security questions vs 2FA migration guidance.,easy,conv_gold_057
+gold_058,"A phishing site took my Apple credentials 5 minutes ago, what do I do immediately?",account_security_issue,escalate,Immediate credential theft requiring fast containment protocol.,high_risk,conv_gold_058
+gold_059,How do I sign out of Apple ID if 'Sign Out is not available due to restrictions'?,account_security_issue,auto,Turn off Screen Time Content & Privacy Restrictions first.,medium,conv_gold_059
+gold_060,Can you tell me what email address is associated with serial number F2LXXXXX?,account_security_issue,auto,Privacy policy: Apple Support cannot disclose account owner details.,easy,conv_gold_060
+gold_061,I was charged $9.99 on my credit card from 'ITUNES.COM/BILL' and don't know what it is for.,billing_subscription_issue,auto,Check purchase history and reportaproblem.apple.com guide.,easy,conv_gold_061
+gold_062,How do I request a refund for an accidental in-app gem purchase my kid made?,billing_subscription_issue,auto,reportaproblem.apple.com refund submission instructions.,easy,conv_gold_062
+gold_063,Cancel my Apple Music subscription right now and refund this month's charge.,billing_subscription_issue,auto,Manage Subscriptions settings steps and refund request portal.,easy,conv_gold_063
+gold_064,"You charged me $500 for a fraudulent App Store game, my lawyer will contact you if not refunded!",billing_subscription_issue,escalate,Large fraudulent charge dispute + legal threat requiring billing supervisor.,high_risk,conv_gold_064
+gold_065,How long does it take for an Apple Store refund to show up on my debit card?,billing_subscription_issue,auto,Standard refund timeframe (up to 30 days depending on financial institution).,easy,conv_gold_065
+gold_066,Payment method declined error when trying to download a free app.,billing_subscription_issue,auto,Unpaid balance check in billing information instructions.,medium,conv_gold_066
+gold_067,How do I change my billing payment method to PayPal?,billing_subscription_issue,auto,Settings > Payment & Shipping management guide.,easy,conv_gold_067
+gold_068,I have an active subscription but the app is still telling me to upgrade to premium.,billing_subscription_issue,auto,Restore Purchases within third-party app guidance.,medium,conv_gold_068
+gold_069,Can I use Apple Gift Card balance to pay for iCloud monthly storage?,billing_subscription_issue,auto,Gift card eligible balance spending rules.,easy,conv_gold_069
+gold_070,I was double-billed for the same movie rental on iTunes.,billing_subscription_issue,auto,reportaproblem.apple.com duplicate charge dispute guide.,easy,conv_gold_070
+gold_071,Why did Apple charge a $1 pending authorization on my card?,billing_subscription_issue,auto,Explanation of temporary verification hold.,easy,conv_gold_071
+gold_072,I filed a chargeback with my bank and now my whole Apple ID is disabled.,billing_subscription_issue,escalate,Chargeback lockdown requiring human finance/dispute team review.,hard,conv_gold_072
+gold_073,Can I transfer my paid App Store purchases to a different Apple ID account?,billing_subscription_issue,auto,Purchases are non-transferable policy; suggest Family Sharing.,medium,conv_gold_073
+gold_074,How do I view receipts for all my past App Store transactions?,billing_subscription_issue,auto,View purchase history in Account Settings instructions.,easy,conv_gold_074
+gold_075,Free trial charged me immediately upon sign up without giving the free 7 days.,billing_subscription_issue,auto,Free trial eligibility rules and refund request link.,medium,conv_gold_075
+gold_076,I redeemed a $50 gift card but my Apple ID balance shows $0.,billing_subscription_issue,escalate,Gift card redemption error requiring code audit and proof of purchase.,hard,conv_gold_076
+gold_077,How do I turn off recurring auto-renewal for HBO on Apple TV?,billing_subscription_issue,auto,Subscriptions settings management guide.,easy,conv_gold_077
+gold_078,Why does sales tax apply to digital App Store purchases in my state?,billing_subscription_issue,auto,Tax compliance explanation for digital goods.,easy,conv_gold_078
+gold_079,Can you issue a refund for an order placed on the online Apple Store via DM?,billing_subscription_issue,auto,Direct user to online Apple Store order status portal.,easy,conv_gold_079
+gold_080,My subscription was cancelled but the app continues to charge my bank account every month.,billing_subscription_issue,escalate,Recurring unauthorized billing error requiring human billing specialist.,hard,conv_gold_080
+gold_081,I dropped my iPhone 8 and the glass back shattered. How much does out-of-warranty repair cost?,hardware_repair_issue,auto,Apple repair pricing guide and Genius Bar appointment link.,easy,conv_gold_081
+gold_082,The Home button on my iPhone 7 feels completely dead and doesn't click at all.,hardware_repair_issue,auto,AssistiveTouch temporary workaround + service options.,medium,conv_gold_082
+gold_083,"My phone fell into a lake, and now the camera lens has water droplets inside.",hardware_repair_issue,escalate,Liquid ingress damage requiring in-person hardware evaluation.,hard,conv_gold_083
+gold_084,How do I book a Genius Bar appointment at the Fifth Avenue store in New York?,hardware_repair_issue,auto,Apple Support app / getsupport.apple.com booking link.,easy,conv_gold_084
+gold_085,Touch screen has ghost touch and opens random apps by itself.,hardware_repair_issue,auto,Display replacement / multi-touch service program check.,medium,conv_gold_085
+gold_086,My MacBook Pro keyboard keys 'E' and 'Space' are repeating or not registering.,hardware_repair_issue,auto,Keyboard Service Program for butterfly keyboards details.,medium,conv_gold_086
+gold_087,iPhone frame is visibly bent after sitting down with it in my back pocket.,hardware_repair_issue,escalate,Physical enclosure deformation requiring repair center inspection.,hard,conv_gold_087
+gold_088,Can an unauthorized third-party repair shop replace my iPhone screen without voiding AppleCare?,hardware_repair_issue,auto,AppleCare third-party modification policy explanation.,medium,conv_gold_088
+gold_089,Lightning port has lint stuck inside and charging cable falls out easily.,hardware_repair_issue,auto,Safe port cleaning guidelines (non-conductive wooden/plastic pick).,easy,conv_gold_089
+gold_090,"Rear camera lens glass cracked, but photos still look normal.",hardware_repair_issue,auto,Camera glass repair pricing and service appointment link.,easy,conv_gold_090
+gold_091,Power button is jammed and stuck pressed in. I cannot turn on the phone.,hardware_repair_issue,escalate,Physical button jam requiring hardware repair.,hard,conv_gold_091
+gold_092,How do I check if my device is still covered under AppleCare+ warranty?,hardware_repair_issue,auto,checkcoverage.apple.com serial number tool link.,easy,conv_gold_092
+gold_093,My iPad screen turned completely purple with vertical lines after being stepped on.,hardware_repair_issue,escalate,Physical LCD display fracture requiring hardware screen replacement.,hard,conv_gold_093
+gold_094,Vibration Taptic engine makes a loud buzzing grinding noise whenever I get a text.,hardware_repair_issue,escalate,Mechanical actuator failure requiring internal module replacement.,hard,conv_gold_094
+gold_095,Can I walk into an Apple Store for repair without making an appointment first?,hardware_repair_issue,auto,Walk-in availability policy vs recommended reservation.,easy,conv_gold_095
+gold_096,What do I need to bring with me to an Apple Store repair appointment?,hardware_repair_issue,auto,"Backup data, disable Find My iPhone, bring photo ID checklist.",easy,conv_gold_096
+gold_097,Screen repair completed yesterday but now True Tone display option is missing.,hardware_repair_issue,escalate,Post-repair calibration defect requiring revisit to repair center.,hard,conv_gold_097
+gold_098,Does AppleCare+ cover accidental water damage with a service fee?,hardware_repair_issue,auto,AppleCare+ accidental damage tier pricing details.,easy,conv_gold_098
+gold_099,Sim tray broke off inside the slot and is stuck.,hardware_repair_issue,escalate,Physical extraction requiring Apple Store technician tools.,hard,conv_gold_099
+gold_100,How long does a mail-in repair take from the day I ship the box?,hardware_repair_issue,auto,Estimated repair turnaround time (3-5 business days).,easy,conv_gold_100
+gold_101,My iPhone suddenly says 'No SIM Card Installed' even though the SIM is inside.,connectivity_network_issue,auto,"Reseat SIM card, restart device, check carrier settings update.",easy,conv_gold_101
+gold_102,Wi-Fi toggle in Control Center is greyed out and cannot be turned on.,connectivity_network_issue,escalate,Hardware Wi-Fi module failure (greyed out toggle).,hard,conv_gold_102
+gold_103,iPhone connects to home Wi-Fi but says 'No Internet Connection' while other laptops work.,connectivity_network_issue,auto,"Renew DHCP lease, Forget Network, Reset Network Settings.",easy,conv_gold_103
+gold_104,AirPods disconnect from Bluetooth every 3 minutes during phone calls.,connectivity_network_issue,auto,Reset AirPods in case and Forget Device re-pairing steps.,easy,conv_gold_104
+gold_105,Personal Hotspot is missing from Settings menu on iOS 11.,connectivity_network_issue,auto,Carrier profile provisioning and Cellular Data APN check.,medium,conv_gold_105
+gold_106,Bluetooth won't pair with my car stereo system after updating phone.,connectivity_network_issue,auto,Car stereo firmware and Bluetooth pairing profile reset.,medium,conv_gold_106
+gold_107,Phone is stuck on 'Searching...' in status bar and drains battery.,connectivity_network_issue,auto,"Carrier update, SIM test, and iPhone 7 'No Service' program advisory.",medium,conv_gold_107
+gold_108,Can I use 5GHz Wi-Fi network on iPhone 6?,connectivity_network_issue,auto,Dual-band 802.11a/b/g/n/ac Wi-Fi specs.,easy,conv_gold_108
+gold_109,Cellular data stopped working for all apps except Safari.,connectivity_network_issue,auto,Check Settings > Cellular individual app toggles.,easy,conv_gold_109
+gold_110,AirDrop is not discovering nearby devices or showing my contact.,connectivity_network_issue,auto,AirDrop Receiving setting (Everyone vs Contacts Only) & Wi-Fi/BT check.,easy,conv_gold_110
+gold_111,Why does Wi-Fi automatically turn back on at 5 AM on iOS 11?,connectivity_network_issue,auto,iOS 11 Control Center Wi-Fi disconnect vs turn off behavior explanation.,easy,conv_gold_111
+gold_112,Calls fail immediately as soon as I dial any number on T-Mobile.,connectivity_network_issue,auto,"Airplane mode toggle, Reset Network Settings, Carrier contact.",medium,conv_gold_112
+gold_113,Bluetooth accessory says 'Pairing took too long' error.,connectivity_network_issue,auto,Accessory discovery mode reset and restart device.,easy,conv_gold_113
+gold_114,Does iPhone 8 support Dual SIM cards?,connectivity_network_issue,auto,Hardware specification answer for iPhone 8 (single Nano-SIM).,easy,conv_gold_114
+gold_115,Wi-Fi speeds on my iPhone are 2 Mbps while my Mac on same network gets 100 Mbps.,connectivity_network_issue,auto,"DNS settings check, VPN disable test, network reset.",medium,conv_gold_115
+gold_116,LTE icon appears but apps say network timeout.,connectivity_network_issue,auto,Toggle LTE to 3G/Data Roaming check and carrier provisioning.,medium,conv_gold_116
+gold_117,Apple Watch disconnects from iPhone whenever I walk into another room.,connectivity_network_issue,auto,Bluetooth range expectations and Wi-Fi handoff guidance.,easy,conv_gold_117
+gold_118,My phone won't connect to enterprise WPA2 802.1X Wi-Fi at university.,connectivity_network_issue,auto,Certificate trust configuration and network profile installation.,medium,conv_gold_118
+gold_119,GPS location is off by 50 miles in Maps when using cellular data.,connectivity_network_issue,auto,Location Services calibration and Date & Time automatic setting.,medium,conv_gold_119
+gold_120,Cellular baseband modem chip died completely after liquid exposure.,connectivity_network_issue,escalate,Baseband hardware failure requiring device exchange.,hard,conv_gold_120
+gold_121,App Store keeps giving error 'Cannot connect to App Store' when I open it.,app_store_app_issue,auto,"Check System Status page, Date & Time automatic, sign out of Media & Purchases.",easy,conv_gold_121
+gold_122,WhatsApp closes immediately every time I tap the app icon.,app_store_app_issue,auto,"Update app, offload app in storage, or backup and reinstall.",easy,conv_gold_122
+gold_123,Apps are stuck on 'Waiting...' with dark icon and won't resume download.,app_store_app_issue,auto,"Pause and resume download, check available storage, restart device.",easy,conv_gold_123
+gold_124,How do I change my App Store country/region from UK to US?,app_store_app_issue,auto,"Cancel active subscriptions, spend balance, update region in settings.",medium,conv_gold_124
+gold_125,App Store asks for Touch ID / password for every single free app download.,app_store_app_issue,auto,Settings > Face ID & Passcode / Media & Purchases password settings.,easy,conv_gold_125
+gold_126,Instagram says 'App requires iOS 12 or later' but my iPhone 5 cannot update to iOS 12.,app_store_app_issue,auto,Download last compatible version from Purchased history guide.,medium,conv_gold_126
+gold_127,Why are all 32-bit apps showing 'App Needs to Be Updated' popup on iOS 11?,app_store_app_issue,auto,iOS 11 64-bit architecture requirement explanation.,easy,conv_gold_127
+gold_128,App Store search tab is completely blank white screen.,app_store_app_issue,auto,"Force quit App Store, clear App Store cache, restart phone.",medium,conv_gold_128
+gold_129,How do I delete an app when the 'X' button doesn't appear on home screen?,app_store_app_issue,auto,Check Screen Time Restrictions for 'Deleting Apps' toggle.,medium,conv_gold_129
+gold_130,Can I set automatic app updates to only happen when connected to Wi-Fi?,app_store_app_issue,auto,Settings > App Store > Cellular Data automatic downloads toggle.,easy,conv_gold_130
+gold_131,"Downloaded a banking app that steals passwords, remove it from App Store immediately!",app_store_app_issue,escalate,Malware / fraudulent app security report requiring App Store review team.,high_risk,conv_gold_131
+gold_132,App Store says 'Your account is not valid for use in the U.S. store.',app_store_app_issue,auto,Switch store country prompt or match billing address.,medium,conv_gold_132
+gold_133,How do I offload unused apps to save space without losing my saved documents?,app_store_app_issue,auto,Settings > General > iPhone Storage 'Offload Unused Apps' guide.,easy,conv_gold_133
+gold_134,Facebook app freezes whenever I try to upload a photo from camera roll.,app_store_app_issue,auto,Settings > Privacy > Photos permission check for Facebook.,easy,conv_gold_134
+gold_135,Why is my purchased tab in App Store empty even though I have bought 50 apps?,app_store_app_issue,auto,Check if apps were hidden or if signed into correct Apple ID.,medium,conv_gold_135
+gold_136,How do I leave a review for an app on the App Store?,app_store_app_issue,auto,Navigate to app product page Ratings & Reviews section.,easy,conv_gold_136
+gold_137,App Store repeatedly prompts for password loop every 10 seconds.,app_store_app_issue,auto,"Sign out of Media & Purchases, reboot, sign back in.",medium,conv_gold_137
+gold_138,Can I share in-app purchases with family members via Family Sharing?,app_store_app_issue,auto,Family Sharing in-app purchase eligibility policy.,easy,conv_gold_138
+gold_139,Third party app won't open and crashes entire phone into black screen with spinning gear.,app_store_app_issue,escalate,Severe OS springboard crash caused by faulty app.,hard,conv_gold_139
+gold_140,How do I stop App Store rating popups inside apps?,app_store_app_issue,auto,Settings > App Store > In-App Ratings & Reviews toggle.,easy,conv_gold_140
+gold_141,iCloud Backup failed: 'The last backup could not be completed due to poor network.',icloud_backup_issue,auto,"Verify Wi-Fi stability, power connection, and sufficient iCloud storage.",easy,conv_gold_141
+gold_142,My photos from today are not appearing on my Mac or iPad iCloud Photo Library.,icloud_backup_issue,auto,"Check Low Power Mode, Wi-Fi connection, and iCloud Photos toggle.",easy,conv_gold_142
+gold_143,I upgraded to 200GB iCloud plan but my iPhone still says iCloud storage is full.,icloud_backup_issue,auto,Sign out and sign back in to refresh storage quota badge.,medium,conv_gold_143
+gold_144,How do I download all my original full-resolution photos from iCloud to my PC?,icloud_backup_issue,auto,iCloud for Windows / icloud.com photo download guide.,easy,conv_gold_144
+gold_145,I deleted photos from my iPhone to make space and they disappeared from iCloud too!,icloud_backup_issue,auto,Explain iCloud sync vs archival backup & check Recently Deleted folder.,medium,conv_gold_145
+gold_146,iCloud Drive documents are stuck on 'Uploading 1 item' for 3 weeks.,icloud_backup_issue,auto,Toggle iCloud Drive off/on and inspect file size limits.,medium,conv_gold_146
+gold_147,My iPhone backup size is 12GB but I only have 5GB free iCloud storage. What do I do?,icloud_backup_issue,auto,Manage Backup size in settings or upgrade storage tier.,easy,conv_gold_147
+gold_148,All my notes disappeared after turning off iCloud Notes toggle.,icloud_backup_issue,auto,Turn iCloud Notes toggle back on to re-sync from server.,easy,conv_gold_148
+gold_149,Can I share my 200GB iCloud storage plan with my family members?,icloud_backup_issue,auto,Family Sharing iCloud storage allocation instructions.,easy,conv_gold_149
+gold_150,How do I recover deleted contacts from iCloud.com?,icloud_backup_issue,auto,icloud.com Account Settings > Restore Contacts guide.,easy,conv_gold_150
+gold_151,iCloud backup restore stopped at 99% and has been stuck there for 24 hours.,icloud_backup_issue,auto,Restart phone or check app download queue completion.,medium,conv_gold_151
+gold_152,Why does 'System' and 'Other' take up 30GB of space in iCloud backup?,icloud_backup_issue,auto,Detailed breakdown of diagnostic data and cache in backup.,medium,conv_gold_152
+gold_153,I lost all irreplaceable photos of my deceased mother after an iCloud sync error!,icloud_backup_issue,escalate,Severe data loss distress requiring senior data recovery specialist.,high_risk,conv_gold_153
+gold_154,How do I turn off iCloud Photo Library without deleting photos from my phone?,icloud_backup_issue,auto,'Download and Keep Originals' selection before turning off guide.,medium,conv_gold_154
+gold_155,Messages in iCloud is taking 10GB of storage. How do I delete old attachments?,icloud_backup_issue,auto,Settings > General > iPhone Storage > Messages review large attachments.,easy,conv_gold_155
+gold_156,Can I back up my iPhone to an external USB hard drive directly from the phone?,icloud_backup_issue,auto,Clarify iTunes/Finder Mac/PC requirement for external drive backup.,easy,conv_gold_156
+gold_157,iCloud says 'Verification Failed. An error occurred connecting to iCloud.',icloud_backup_issue,auto,Check Apple System Status page and restart network connection.,easy,conv_gold_157
+gold_158,How do I downgrade my iCloud storage plan back to the free 5GB tier?,icloud_backup_issue,auto,Manage Storage > Change Storage Plan > Downgrade Options guide.,easy,conv_gold_158
+gold_159,Does WhatsApp backup to iCloud count against my free 5GB iCloud storage?,icloud_backup_issue,auto,Confirm WhatsApp backup consumes iCloud Drive quota.,easy,conv_gold_159
+gold_160,My shared iCloud photo album is not sending invite notifications to my friends.,icloud_backup_issue,auto,Verify recipient Apple ID email and Shared Albums settings.,medium,conv_gold_160
+gold_161,People cannot hear me when I speak on phone calls unless I switch to speakerphone.,audio_media_issue,auto,Microphone grill cleaning and voice memo hardware test.,easy,conv_gold_161
+gold_162,Top receiver ear speaker is extremely muffled during calls on iPhone 7.,audio_media_issue,auto,Receiver mesh cleaning and sound balance settings check.,easy,conv_gold_162
+gold_163,Songs on Apple Music keep pausing randomly after 15 seconds of playback.,audio_media_issue,auto,"Download song offline test, sign out/in of Apple Music, network check.",easy,conv_gold_163
+gold_164,One side of my AirPods (left earbud) has zero sound and won't charge in case.,audio_media_issue,auto,"Clean charging contacts, reset AirPods case button for 15 seconds.",easy,conv_gold_164
+gold_165,My phone is stuck in 'Headphones' mode even though nothing is plugged in.,audio_media_issue,auto,"Inspect lightning port for debris, plug/unplug headphones, reboot.",medium,conv_gold_165
+gold_166,Audio is distorted and crackles loudly whenever volume is set above 50%.,audio_media_issue,escalate,Blown physical speaker cone requiring hardware replacement.,hard,conv_gold_166
+gold_167,Why does volume automatically drop when I open camera or game?,audio_media_issue,auto,Change with Buttons toggle and attention awareness settings.,easy,conv_gold_167
+gold_168,Siri cannot hear my voice when I say 'Hey Siri'.,audio_media_issue,auto,Retrain Hey Siri voice model in Settings > Siri & Search.,easy,conv_gold_168
+gold_169,How do I EQ bass boost on Apple Music on iPhone?,audio_media_issue,auto,Settings > Music > EQ > Bass Booster guide.,easy,conv_gold_169
+gold_170,My AirPods volume is very quiet even when iPhone volume slider is at 100%.,audio_media_issue,auto,Audio Balance in Accessibility and Volume Limit settings check.,easy,conv_gold_170
+gold_171,Microphone makes high-pitched deafening screeching feedback that hurt my eardrum!,audio_media_issue,escalate,Audio feedback injury risk requiring immediate hardware diagnostic.,high_risk,conv_gold_171
+gold_172,Bluetooth audio is out of sync with video when watching Netflix or YouTube.,audio_media_issue,auto,"App cache refresh, reconnect Bluetooth device, low latency settings.",medium,conv_gold_172
+gold_173,Why does music stop playing whenever I receive a text notification?,audio_media_issue,auto,Sound & Haptics notification ducking behavior explanation.,easy,conv_gold_173
+gold_174,Podcast app won't play downloaded episodes offline on airplane mode.,audio_media_issue,auto,Podcast continuous playback and cellular data settings check.,medium,conv_gold_174
+gold_175,Can I connect two pairs of AirPods to one iPhone at the same time?,audio_media_issue,auto,Audio Sharing feature compatibility requirements.,easy,conv_gold_175
+gold_176,Bottom right speaker has no sound coming out on my iPhone.,audio_media_issue,auto,"Clarify bottom right is speaker, bottom left is microphone.",easy,conv_gold_176
+gold_177,My ringtone is silent even though the mute switch is off and volume is up.,audio_media_issue,auto,Check Do Not Disturb / Focus mode status.,easy,conv_gold_177
+gold_178,Voice Memos app says 'Audio recording failed' when tapping red record button.,audio_media_issue,auto,Microphone privacy permission and storage space check.,medium,conv_gold_178
+gold_179,Lightning to 3.5mm headphone adapter is not recognized: 'Accessory not supported'.,audio_media_issue,auto,MFi certification explanation and port cleaning.,easy,conv_gold_179
+gold_180,Audio keeps switching back and forth between speaker and earpiece during calls.,audio_media_issue,auto,Proximity sensor check and case obstruction test.,medium,conv_gold_180
+gold_181,Do you offer customer support on Twitter in Spanish or Portuguese?,general_inquiry_advice,auto,Direct user to international Twitter handles or localized support portals.,easy,conv_gold_181
+gold_182,How do I take a screenshot on the new iPhone X without a home button?,general_inquiry_advice,auto,Press Side button + Volume Up button simultaneously.,easy,conv_gold_182
+gold_183,Can I trade in my old iPhone 6 at the Apple Store towards an iPhone 8?,general_inquiry_advice,auto,Apple Trade In program valuation and store trade-in guide.,easy,conv_gold_183
+gold_184,What are the retail store opening hours for the Regent Street Apple Store in London?,general_inquiry_advice,auto,Apple Store locator and official hours portal link.,easy,conv_gold_184
+gold_185,Is iPhone 8 waterproof if I take it swimming in the ocean?,general_inquiry_advice,auto,IP67 water resistance rating explanation (freshwater vs saltwater).,easy,conv_gold_185
+gold_186,How do I enable Dark Mode or Invert Colors on iOS 11?,general_inquiry_advice,auto,Settings > General > Accessibility > Display Accommodations > Smart Invert.,easy,conv_gold_186
+gold_187,I am writing a research thesis on Apple's corporate supply chain. Who can I interview?,general_inquiry_advice,auto,Direct to Apple PR / media relations portal.,medium,conv_gold_187
+gold_188,How do I record my iPhone screen with the new iOS 11 Control Center tool?,general_inquiry_advice,auto,Settings > Control Center > Customize Controls > Screen Recording guide.,easy,conv_gold_188
+gold_189,Can Apple pencil work on iPhone or only on iPad Pro?,general_inquiry_advice,auto,Apple Pencil hardware compatibility specifications (iPad only).,easy,conv_gold_189
+gold_190,"I have an idea for an unreleased Apple product patent, sign my NDA immediately!",general_inquiry_advice,escalate,Unsolicited product idea / legal NDA submission requiring legal intake.,high_risk,conv_gold_190
+gold_191,How do I turn on True Tone display on iPad Pro?,general_inquiry_advice,auto,Settings > Display & Brightness > True Tone toggle.,easy,conv_gold_191
+gold_192,Where can I recycle my old broken iPod and laptop cables responsibly?,general_inquiry_advice,auto,Apple recycling program and free in-store drop-off details.,easy,conv_gold_192
+gold_193,How do I customize Control Center shortcuts on iOS 11?,general_inquiry_advice,auto,Settings > Control Center > Customize Controls guide.,easy,conv_gold_193
+gold_194,Does the iPhone 8 come with fast charger in the box?,general_inquiry_advice,auto,Package contents specs (standard 5W adapter included).,easy,conv_gold_194
+gold_195,How do I use Reachability on iPhone without home button?,general_inquiry_advice,auto,Swipe down on bottom edge of screen guide.,easy,conv_gold_195
+gold_196,Can I buy AppleCare+ after 30 days of purchasing my iPhone?,general_inquiry_advice,auto,AppleCare+ 60-day purchase window policy with diagnostic check.,medium,conv_gold_196
+gold_197,Are student discounts available on iPad Pro purchases at the education store?,general_inquiry_advice,auto,Apple Education Pricing eligibility and portal link.,easy,conv_gold_197
+gold_198,What is the return policy window if I bought an iPhone at the Apple Store?,general_inquiry_advice,auto,Standard 14-day return/exchange policy explanation.,easy,conv_gold_198
+gold_199,Can I use Apple Pay in Germany or which countries are currently supported?,general_inquiry_advice,auto,Apple Pay country and region availability list portal.,easy,conv_gold_199
+gold_200,How do I scan QR codes using the camera app on iOS 11?,general_inquiry_advice,auto,Point camera at QR code and tap notification banner guide.,easy,conv_gold_200
